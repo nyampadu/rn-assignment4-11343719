@@ -10,7 +10,7 @@ const HomePage = () => {
                 <View style={styles.header}>
                     <Avatar
                         rounded
-                        source={{ uri: 'https://randomuser.me/api/portraits/men/41.jpg' }} // Placeholder image
+                        source={{ uri: 'https://randomuser.me/api/portraits/men/41.jpg' }} // Profile image
                         size="large"
                     />
                     <View style={styles.userInfo}>
@@ -205,12 +205,12 @@ const styles = StyleSheet.create({
     featuredJobSalary: {
         fontSize: 16,
         color: '#fff',
-        marginBottom: 30, // Adjust margin bottom to move closer to bottom
+        marginBottom: 30,
     },
     featuredJobLocation: {
         fontSize: 16,
         color: '#fff',
-        marginBottom: -40, // Adjust margin bottom to move closer to bottom right
+        marginBottom: -40,
     },
     popularCard: {
         borderRadius: 10,
